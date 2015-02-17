@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="lyModuleName">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.13/angular.min.js"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+
+<div ng-controller="lyController">
+
+    <p>Burada Angular İşlemleri Yapılacak </p>
+    <hr/>
+
+    <p>
+        <button ng-click="count = count+1" ng-init="count=0"> Increment</button>
+        <span><b>Sayı : </b> {{count}} </span>
+    </p>
+
+
+</div>
+
+</body>
+</html>
